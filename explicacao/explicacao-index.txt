@@ -1,0 +1,26 @@
+Esse é um código HTML que cria uma página web chamada "Post it" e utiliza uma folha de estilo externa (style.css) para estilização. Vou explicar as principais partes do código:
+
+1 - Metatags: As metatags no <head> fornecem informações sobre a página, como o conjunto de caracteres, a viewport, o autor, a descrição e as palavras-chave.
+
+2 - Título da Página: Define o título da página exibido na aba do navegador.
+
+3 - Link para a Folha de Estilo: Liga a página HTML à folha de estilo externa "style.css", que contém as regras de estilo para a página.
+
+4 - Cabeçalho (Header):
+
+    - <h1>: Título principal da página, "Post-its".
+    - <nav>: Define uma barra de navegação.
+    - <ul>: Lista não ordenada que contém links de navegação.
+    - <li>: Itens da lista.
+    - <a>: Links para diferentes páginas ("index.html", "cores-e-efeitos.html" e "clip-path.html").
+
+5 - Seção de Cartões (Cards):
+
+    - <section class="cards-container">: Define uma seção que conterá os artigos de cartões.
+    - <article class="card">: Cada artigo representa um cartão.
+    - <h2 class="card_title">: Título do cartão.
+    - <p>: Parágrafo de texto do cartão.
+
+O código HTML cria uma estrutura básica para a página "Post it" com uma barra de navegação e uma seção de cartões. A estilização desses elementos é feita usando a folha de estilo externa "style.css". Cada cartão (article) tem um título e um parágrafo de texto, que podem ser personalizados com conteúdo real ou fictício.
+
+Para uma visualização completa e correta do layout, a folha de estilo "style.css" também é necessária para aplicar as regras de formatação e estilização aos elementos da página. O estilo incluirá formatação para os títulos, fundos, cores, espaçamento, sombras e outros aspectos visuais da página e dos cartões.

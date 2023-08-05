@@ -1,0 +1,33 @@
+Este é o código HTML para a página "Clip Path". Vou explicar as principais partes do código:
+
+1 - Estrutura Básica do Documento:
+
+    - <!DOCTYPE html>: Define o tipo de documento como HTML5.
+    - <html lang="pt-br">: Elemento raiz que indica que o idioma principal do documento é o português do Brasil.
+
+2 - Cabeçalho (Head):
+
+    - <title>: Define o título da página exibido na guia do navegador.
+    - <meta charset="UTF-8">: Especifica o conjunto de caracteres UTF-8 para suportar caracteres especiais.
+    - <meta name="viewport" content="width=device-width, initial-scale=1.0">: Define as configurações de visualização da página em dispositivos móveis.
+    - <meta name="author" content="Wesley Victor Pereira silva">: Define o autor da página.
+    - <meta name="description" content="Descrição da página">: Define a descrição da página para fins de SEO.
+    - <meta name="keywords" content="html5, tecnologia">: Define palavras-chave relacionadas ao conteúdo da página.
+    - <style>: Início do bloco de estilos embutidos na página.
+
+3 - Estilos CSS Embutidos:
+
+    - São definidos estilos para o corpo da página, títulos, cartões, elementos de exemplo e elementos com clipping de forma (clip path).
+    - Os estilos definidos incluem definições de fonte, cores de fundo, margens, tamanhos, bordas, sombras e propriedades de recorte (clip-path).
+
+4 - Corpo da Página (Body):
+
+    - <h1>: Título de nível 1 para a página.
+    - <nav>: Barra de navegação.
+    - <ul>: Lista não ordenada para os links de navegação.
+    - <li>: Itens da lista que contêm links para outras páginas.
+    - <article>: Elemento de artigo com uma classe "card" que contém um título e um parágrafo de texto.
+    - <div class="exemplo">: Elemento de exemplo com uma classe "exemplo" que possui um formato especial usando bordas.
+    - <section class="clippath">: Seção que contém vários elementos com formas diferentes aplicadas através da propriedade clip-path.
+
+Cada <div> dentro da seção "clippath" tem um id correspondente (d1, d2, d3, etc.) e a propriedade clip-path é usada para aplicar diferentes formas de recorte a esses elementos. A página possui estilos embutidos para controle de aparência, e os elementos de navegação (<nav>) têm links para outras páginas. No geral, a página demonstra o uso da propriedade clip-path para criar recortes de forma em elementos.

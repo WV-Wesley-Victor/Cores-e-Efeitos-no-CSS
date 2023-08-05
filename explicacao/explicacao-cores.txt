@@ -1,0 +1,37 @@
+Este é um trecho de código CSS que fornece estilos. Ele é responsável por definir a aparência visual dos elementos na página. Vou explicar as principais partes do código:
+
+1 - Variável CSS: A variável --primary-color é definida no seletor :root e atribui uma cor vermelha #e10f0f à variável. Essa variável pode ser reutilizada em todo o código CSS.
+
+2 - Estilos do Corpo (Body):
+
+    - Define a fonte padrão para o corpo da página como "Arial, Helvetica, sans-serif".
+    - Aplica um gradiente linear de fundo para o corpo, combinando uma cor azul semi-transparente e vermelha.
+    - Define uma imagem de fundo com um padrão em mosaico a partir do arquivo "tile.png".
+    - Define a propriedade background-attachment para criar um efeito de paralaxe no fundo.
+
+3 - Classe .cores:
+
+    - Define a cor de fundo utilizando a variável --color (que é uma mistura entre --primary-color e um tom transparente).
+    - Define a largura, a borda, a margem e o preenchimento dos elementos com a classe .cores.
+
+4 - Estilização de Seção (Section):
+
+    - Usa counter-reset para redefinir o valor do contador para zero.
+    - Usa counter-increment para incrementar o contador para cada elemento com a classe .cores.
+    - Usa ::before para adicionar um conteúdo antes de cada elemento .cores, exibindo um contador.
+
+5 - Estilos para Cada Cartão .cores:nth-of-type(n):
+
+    - Define diferentes estilos de fundo e sombra para diferentes elementos .cores com base em sua posição.
+    - Usa gradientes radiais e cônicos para criar efeitos de fundo interessantes.
+
+6 - Estilos para Links na Barra de Navegação (li a):
+
+    - Define a aparência dos links na barra de navegação, incluindo cor de fundo, sombra, cor de texto, padding e borda arredondada.
+    - Define uma transição suave quando o link é destacado com o mouse.
+
+7 - Pseudo-classe :hover:
+
+    - Define como os links na barra de navegação devem aparecer quando o mouse estiver sobre eles, alterando a cor de fundo e a escala.
+
+Esses estilos CSS são usados para criar um design visualmente atraente e interessante, incluindo cartões coloridos e efeitos de gradiente e sombra. Os seletores CSS são aplicados a elementos específicos do HTML, definindo sua aparência e comportamento.
