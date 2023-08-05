@@ -3,7 +3,7 @@
 
 ![Captura de Tela (62)](https://github.com/WV-Wesley-Victor/Cores-e-Efeitos-no-CSS/assets/137107062/c7669c4d-b685-485b-af69-77ae1265d9f3)
 <p align="center">
-  <a href="https://wv-wesley-victor.github.io/Animacao-no-CSS/" target="_blank">Clique aqui para visitar o projeto</a>
+  <a href="https://wv-wesley-victor.github.io/Cores-e-Efeitos-no-CSS/index.html" target="_blank">Clique aqui para visitar o projeto</a>
 </p>
 
 ## Descrição
